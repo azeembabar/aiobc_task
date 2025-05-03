@@ -49,6 +49,15 @@ defined('BASEPATH') or exit('No direct script access allowed');
 | Examples:	my-controller/index	-> my_controller/index
 |		my-controller/my-method	-> my_controller/my_method
 */
+
+
+////////////////////////////API ROUTES START///////////////////////////////////////
+$route['api/email-campaigns'] = 'email_campaigns/email_campaign';
+$route['api/email-campaigns/(:num)/send'] = 'email_campaigns/send/$1';
+
+
+////////////////////////////API ROUTES END///////////////////////////////////////
+
 $route['default_controller'] = 'welcome';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
