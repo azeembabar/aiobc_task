@@ -1,0 +1,24 @@
+<?php
+$config['useragent'] = 'phpmailer';
+$config['mailpath']  = '/usr/bin/sendmail';
+$config['protocol'] = 'smtp';
+$config['smtp_host'] = ''; // smtp.example.com
+$config['smtp_port'] = 465;
+$config['smtp_user'] = '';
+$config['smtp_pass'] = '';
+$config['smtp_timeout'] = 30;
+$config['smtp_crypto']  = 'ssl';                  //'ssl' or 'tls'.
+$config['smtp_debug']   = 0;
+$config['debug_output'] = 'html';
+$config['smtp_auto_tls'] = false;
+$config['smtp_conn_options'] = [];
+$config['wordwrap'] = true;
+$config['mailtype'] = 'html';
+$config['charset']  = 'utf-8';
+$config['validate'] = false;
+$config['priority'] = 3;
+$config['newline']        = "\r\n";
+$config['crlf']           = "\r\n";
+$config['bcc_batch_mode'] = false;
+$config['bcc_batch_size'] = 200;
+$config['encoding']       = '8bit';
