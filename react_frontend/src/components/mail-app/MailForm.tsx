@@ -49,7 +49,6 @@ const [loading, setLoading] = useState(false);
       } catch (error: any) {
         setLoading(false);
         toast.error("Request failed. Please try again", {
-          description: error.message,
           position:"top-right"
         });
       }

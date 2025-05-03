@@ -4,6 +4,8 @@
 
 A lightweight RESTful API built with CodeIgniter 3 to manage email campaigns.
 
+Video Demo Link: https://drive.google.com/file/d/1-ecmNvubxpcDK88YDRcOxDFgM6aFb-Bp/view?usp=sharing
+
 ---
 
 ## 📦 Prerequisites
