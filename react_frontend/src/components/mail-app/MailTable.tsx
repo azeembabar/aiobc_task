@@ -57,7 +57,6 @@ const DataTable : React.FC<DataTableProps> = ({ refreshKey, onSent }) => {
         setAllEmails(data || []);
       } catch (error: any) {
         toast.error("Failed to fetch emails.", {
-          description: error?.message,
           position:"top-right"
         });
         setAllEmails([]);
@@ -135,7 +134,7 @@ const DataTable : React.FC<DataTableProps> = ({ refreshKey, onSent }) => {
         onSent?.();
       }
     } catch (error: any) {
-      toast.error("Failed to send email,", { description: error.message,position:"top-right" });
+      toast.error("Failed to send email,", { position:"top-right" });
       setSendLoading(false);
     }
   };
