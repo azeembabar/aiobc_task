@@ -64,10 +64,29 @@ $config['smtp_crypto']  = 'ssl';                  //'ssl' or 'tls'.
 
 ```
 
-Set base_url according to your requirements in application/config/config.php
+Set base_url according to your requirement in application/config/config.php
 
 ```php
 
 $config['base_url'] = 'http://localhost/aiobc_task/';
 
 ```
+
+# React Email Campaign Frontend
+
+This is the React.js frontend for the Email Campaign Management application. It communicates with a CodeIgniter 3 REST API to create, list, and send email campaigns.
+
+Note: Folder name for React app is "react_frontend" locate in main root
+
+### 1. Install Dependencies
+
+npm install
+
+### 2. Envoirment Variables
+
+Add API endpoint in .env VITE_API_URL=http://localhost/aiobc_task/api
+Note create .env file in root.
+
+### 3. Start React APP
+
+npm run dev
