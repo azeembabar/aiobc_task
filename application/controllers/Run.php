@@ -24,6 +24,7 @@ class Run extends CI_Controller
             ) ENGINE=InnoDB DEFAULT CHARSET=utf8;");
         }
 
+
         redirect('/');
     }
 }
