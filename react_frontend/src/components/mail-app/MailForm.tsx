@@ -1,5 +1,3 @@
-"use client";
-
 import { useFormik } from "formik";
 import * as Yup from "yup";
 import { Input } from "@/components/ui/input";
